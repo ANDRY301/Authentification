@@ -1,0 +1,133 @@
+.container_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.containericon_footer{
+    display: flex;
+    width: 20vw;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 10vh;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.nom-footer{
+    color: white;
+   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+@keyframes fanao {
+    50%{ transform: scale(1.08, 1.01);}
+    100%{ transform: scale(1, 1);}
+    
+  }
+ .fa-table:hover{
+    color: #0f63d6;
+    animation-name: fanao;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    transition:color 0.3s ease-in-out;
+
+ }
+  .fa-phone:hover{
+    color: #0f63d6;
+    animation-name: fanao;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    transition:color 0.3s ease-in-out;
+     }
+   .fa-mailchimp:hover{
+    color: #0f63d6;
+    animation-name: fanao;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    transition:color 0.3s ease-in-out;
+   }
+   .fa-address-book:hover{
+    color: #0f63d6;
+    animation-name: fanao;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    transition:color 0.3s ease-in-out;
+   }
+   .fa-tools:hover{
+    color: #0f63d6;
+    animation-name: fanao;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    transition:color 0.3s ease-in-out;
+
+   }
+   .fa-trash-alt:hover{
+    color: #0f63d6;
+    animation-name: fanao;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    transition:color 0.3s ease-in-out;
+   }
+   .fa-clipboard:hover{
+    color: #0f63d6;
+    animation-name: fanao;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    transition:color 0.3s ease-in-out;
+
+   }
+
+
+             /*/ICON FOOTER /*/
+             .fa-tools,
+             .fa-clipboard-list,
+             .fa-clipboard,
+             .fa-trash-alt,
+             .fa-phone,
+             .fa-mailchimp,
+             .fa-adn,
+             .fa-table,
+             .fa-address-book{
+                 color: white;
+                 display: flex;
+                 font-size: 2vw;
+                 margin-top: 2rem;
+                 padding-bottom: 0.5rem;
+             }
+@media screen and (max-width : 750px){
+    .container_footer{
+        display: none;
+    }
+    .containericon_footer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 15vh;
+        text-decoration: none;
+    }
+    .nom-footer{
+        color: white;
+        font-size: 0.8rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+                 /*/ICON FOOTER /*/
+                 .fa-tools,
+                 .fa-clipboard,
+                 .fa-trash-alt,
+                 .fa-phone,
+                 .fa-mailchimp,
+                 .fa-adn,
+                 .fa-address-book{
+                     color: white;
+                     display: flex;
+                     font-size: 1.5rem;
+                     margin-top: 2rem;
+                     padding-bottom: 0.5rem;
+                 }
+             }

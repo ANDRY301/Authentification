@@ -1,0 +1,311 @@
+
+            .container_accueil{
+                width: 50vw;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap; 
+                margin-top: 4rem;
+            }
+         
+/*/ debut PARTIE accueil/*/
+/*/ Pfliste_accueil_-clas_box debut  /*/
+.container_Pfliste_accueil1,
+.container_Pfliste_accueil2,
+.container_Pfliste_accueil3,
+.container_Pfliste_accueil4,
+.container_Pfliste_accueil5,
+.container_Pfliste_accueil6{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width:15rem;
+    height: 15rem;
+    margin: 1rem;
+    text-decoration: none; 
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.container_Pfliste_accueil1{
+    background-image: url("../2-images/box_fournisseur.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_Pfliste_accueil2{
+    background-color: #0f63d6;
+    background-image: url("../2-images/box_marche.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container_Pfliste_accueil3{
+    background-image: url("../2-images/box_commande.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_Pfliste_accueil4{
+    background-color: #0f63d6;
+    background-image: url("../2-images/box_NACRE.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_Pfliste_accueil5{
+    background-image: url("../2-images/box_maintenance.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container_Pfliste_accueil6{
+    background-image: url("../2-images/box_procedure.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titre_bloc{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+@keyframes fanao {
+    50%{ transform: scale(1.03, 1.01);}
+    100%{ transform: scale(1, 1);}
+  }
+
+.fa-barcode,
+.fa-shopping-cart,
+.fa-list,
+.fa-store-alt,
+.fa-luggage-cart,
+.fa-stumbleupon {
+    margin-top: 2rem;
+    color: white;
+    font-size: 5rem;
+}
+
+.container_Pfliste_accueil1:hover{
+    animation-name: fanao;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+     }
+     .container_Pfliste_accueil2:hover{
+        animation-name: fanao;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    
+         }
+
+         .container_Pfliste_accueil3:hover{
+            animation-name: fanao;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        
+             }
+             .container_Pfliste_accueil4:hover{
+                animation-name: fanao;
+                animation-duration: 1.5s;
+                animation-iteration-count: infinite;
+                 }
+                 .container_Pfliste_accueil5:hover{
+                    animation-name: fanao;
+                    animation-duration: 1.5s;
+                    animation-iteration-count: infinite;
+                
+                     }
+            
+                     .container_Pfliste_accueil6:hover{
+                        animation-name: fanao;
+                        animation-duration: 1.5s;
+                        animation-iteration-count: infinite;
+                    
+                         }
+
+
+
+.container_Pfliste_accueil1:hover{
+    animation-name: fanao;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+     }
+     .container_Pfliste_accueil1:hover{
+        animation-name: fanao;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    
+         }
+
+         .container_Pfliste_accueil1:hover{
+            animation-name: fanao;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        
+             }
+
+/*/ fin /*/
+.container_accueil_p{
+    margin-top: 35vh;
+    position: absolute;
+}
+
+@media screen and (max-width : 600px){
+                
+
+    .container_accueil{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+
+
+/*/ debut PARTIE accueil/*/
+/*/ Pfliste_accueil_-clas_box debut  /*/
+.container_Pfliste_accueil1,
+.container_Pfliste_accueil2,
+.container_Pfliste_accueil3,
+.container_Pfliste_accueil4,
+.container_Pfliste_accueil5,
+.container_Pfliste_accueil6{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+width:15rem;
+height: 15rem;
+margin: 1rem;
+text-decoration: none; 
+box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+-webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+border-radius: 10px;
+border: 1px solid white;
+
+}
+.container_Pfliste_accueil1{
+background-image: url("../2-images/box_fournisseur.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container_Pfliste_accueil2{
+background-color: #0f63d6;
+background-image: url("../2-images/box_marche.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.container_Pfliste_accueil3{
+background-image: url("../2-images/box_commande.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container_Pfliste_accueil4{
+background-color: #0f63d6;
+background-image: url("../2-images/box_NACRE.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container_Pfliste_accueil5{
+background-image: url("../2-images/box_maintenance.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.container_Pfliste_accueil6{
+background-image: url("../2-images/box_procedure.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.titre_bloc{
+margin-top: 2rem;
+font-size: 0.8rem;
+color: white;
+text-transform: uppercase;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+@keyframes fanao {
+50%{ transform: scale(1.03, 1.01);}
+100%{ transform: scale(1, 1);}
+}
+
+.fa-barcode,
+.fa-shopping-cart,
+.fa-list,
+.fa-store-alt,
+.fa-luggage-cart,
+.fa-stumbleupon {
+margin-top: 2rem;
+color: white;
+font-size: 5rem;
+}
+
+.container_Pfliste_accueil1:hover{
+animation-name: fanao;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+}
+.container_Pfliste_accueil2:hover{
+animation-name: fanao;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+
+ }
+
+ .container_Pfliste_accueil3:hover{
+    animation-name: fanao;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+     }
+     .container_Pfliste_accueil4:hover{
+        animation-name: fanao;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+         }
+         .container_Pfliste_accueil5:hover{
+            animation-name: fanao;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        
+             }
+    
+             .container_Pfliste_accueil6:hover{
+                animation-name: fanao;
+                animation-duration: 1.5s;
+                animation-iteration-count: infinite;
+            
+                 }
+
+
+
+.container_Pfliste_accueil1:hover{
+animation-name: fanao;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+}
+.container_Pfliste_accueil1:hover{
+animation-name: fanao;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+
+ }
+
+ .container_Pfliste_accueil1:hover{
+    animation-name: fanao;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+     }
+
+/*/ fin /*/
+
+
+}

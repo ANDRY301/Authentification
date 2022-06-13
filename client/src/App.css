@@ -1,0 +1,40 @@
+.App {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 195, 0);
+}
+.container_app{
+  height: auto;
+
+}
+
+span{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+
+}
+::placeholder{
+  color: rgba(14, 3, 3, 0.404);
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width : 750px){
+  ::placeholder{
+    color: rgba(14, 3, 3, 0.404);
+    font-size: 0.8rem;
+  }
+  
+
+}

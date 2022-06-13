@@ -1,0 +1,26 @@
+.accueil_no_connecte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
+.lien_accueil{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+.acc_1{
+    height: 35vw;
+    width: 35vw;
+    margin-top: 3rem;
+
+}
+
+@media screen and (max-width : 750px){
+    .acc_1{
+        height: 85vw;
+        width: 85vw;
+        margin-top: 20vh;
+    }
+}

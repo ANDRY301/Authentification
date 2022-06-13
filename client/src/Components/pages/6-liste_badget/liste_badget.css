@@ -1,0 +1,480 @@
+/*/ apres commun fournisseurs on fait inscri/*/
+
+            
+            /*/--------------------Partie css---------------------------/*/
+            .bloc_recherche_input{
+                padding-top: 2rem;
+                width: 50vw;
+                margin: auto;                 
+                }
+              
+                .container_commentaire_input{
+                  width: 250px;
+                  position: relative;
+                  height: 60px;
+                  overflow: hidden;
+                  margin-top: 15px;
+                  margin: auto;       
+              }
+              
+              .commentaire_input{
+                background-color: rgba(91, 247, 195, 0.1);
+                font-weight: bold;
+                margin-left: 35px;
+                font-size: 1.3em;
+                color: black;
+              }
+              
+              .container_commentaire_input input{
+                  width: 100%;
+                  height: 100%;
+                  color: #595f6e;
+                  border: none;
+                  outline: none;
+              } 
+              
+              .container_commentaire_input label {
+                  position: absolute;
+                  bottom: -3px;
+                  left: 0%;
+                  width: 100%;
+                  height: 100%;
+                  pointer-events: none;
+                  border-bottom: 3.5px solid rgb(80, 76, 76,0.5);
+              }
+              
+              .container_commentaire_input label::after{
+                  content: "";
+                  position: absolute;
+                  height: 100%;
+                  width: 100%;
+                  left: 0px;
+                  bottom: 0px;
+                  border-bottom: 2px solid rgb(20, 153, 109);
+                  transform: translateX(-100%);
+                  transition: transform 0.3s ease;
+              }
+              
+              .icon_commentaire_input{
+                  position: absolute;
+                  bottom: 5px;
+                  left: 10px;
+                  transition: all 0.3s ease;
+                  color: rgb(0, 0, 0,0.5);
+              }
+              
+              .container_commentaire_input input:focus +.label_input .icon_commentaire_input , 
+              .container_commentaire_input input:valid + .label_input .icon_commentaire_input {
+                  transform: translateY(-70%) translateX(-30%);
+                  font-size: 0.8em;
+                  color: rgb(20, 153, 109);
+              }
+              
+              .container_commentaire_input input:focus +.label_input::after ,.container_commentaire_input input:valid + .label_input::after{
+                  transform: translateX(0%);
+              }
+              
+              /*/ FIN PARTIE RECHECHE /*/
+
+
+
+
+
+
+.container_liste_de_badget{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn_liste{
+    background-color: #00398a;
+    padding: 0.8rem;
+    border: solid 0.5px white;
+    width: 7rem;
+    text-align: center;
+}
+.container_btn_liste{
+    display: flex;
+}
+
+.container_pointage{
+    margin-top: 3rem;
+}
+
+.container_nacre_parent_inscripton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15vh;
+    position: absolute;
+    width: 100%;
+    min-height: 92vh;
+}
+.container_btn_bar{
+    width: 100%;
+}
+.btn_cherche_nacre{
+    margin-top: 1rem;
+    width: 110px;
+    padding: 1rem;
+    color: white;
+    border: solid white 1px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;  
+    background-color: #00398a;
+    margin-right: 3rem;
+ }
+ .btn_text_btn_nacre{
+    margin-right: 0.5rem;
+ }
+
+.cherche_nacre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_bas_nav_nacre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+ }
+
+.container_liste1_nacre{
+    display: flex;
+    width:50vw;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.con_titre1_nacre_code{
+    width: 5vw;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    margin-top:1rem ;
+    background-color: #00398a;
+    color: white;
+    font-size: 0.9vw;
+}
+.con_titre1_nacre_Intitules{
+    width: 25vw;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    margin-top:1rem ;
+    background-color: #0f62d6e0;
+    color: white;
+    font-size: 1vw;
+}
+.con_titre1_nacre{
+    width: 15vw;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    margin-top:1rem ;
+    background-color: #0f62d6e0;
+    color: white;
+    font-size: 1vw;
+}
+.container_bas_nav_nacre2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+.container_liste1_nacre2{
+    display: flex;
+    width:50vw;
+    justify-content: space-around;
+}
+.con_titre1_nacre2{
+    width: 15vw;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    background-color: #0f62d6e0;
+    color: white;
+    font-size: 1vw;
+}
+.con_titre1_nacre2_code{
+    width: 5vw;
+    border: solid 2.5px white;
+      text-align: center;
+      word-break: break-all;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    background-color: #00398a;
+    color: white;
+    font-size: 0.75vw;
+}
+
+.con_titre1_nacre2_Intitules{
+    width: 25vw;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    background-color: #0f62d6e0;
+    color: white;
+    font-size: 0.7vw;
+}
+
+/*/ partie nacre bar/*/
+
+
+.container_bas_nav_nacre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+   
+ }
+.titre_img_nacre{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 100%
+}
+.titre_nacre{
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0f63d6;
+    font-family: 'Open Sans', sans-serif;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+.deco_bar_nacre{
+  height: 8vh;
+  margin-left: 5vw;
+}
+
+@media screen and (max-width : 600px){
+
+
+    .btn_liste{
+        background-color: #00398a;
+        padding: 0.5rem;
+        border: solid 0.5px white;
+        width: 4.5rem;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .container_btn_liste{
+        display: flex;
+    }
+    
+    
+    
+    
+    
+
+
+    
+/*/ apres commun fournisseurs on fait inscri/*/
+.container_nacre_parent_inscripton{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    min-height: 92vh;
+    /*/
+    top: 20vh;
+    /*/
+}
+.container_btn_bar{
+    width: 100%;
+   
+}
+.cherche_nacre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.btn_cherche_nacre{
+    margin-top: 1rem;
+    width: 110px;
+    padding: 1rem;
+    color: white;
+    border: solid white 1px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;  
+    background-color: #00398a;
+    margin-right: 0rem;
+
+ }
+ .btn_text_btn_nacre{
+    margin-right: 0.5rem;
+ }
+
+
+  .nacre_affiche{
+    width: 100%;
+    margin-top: 0rem;
+
+  }
+
+/*/---------------------------------DEBUT-----------------------/*/
+ .container_bas_nav_nacre{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ }
+ .container_bas_nav_nacre2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+ }
+
+.container_liste1_nacre{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.container_liste1_nacre2{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+.con_titre1_nacre_code{
+    width: 10%;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0rem;
+    margin-top:1rem ;
+    background-color: #00398a;
+    color: white;
+    font-size: 0.5rem;
+}
+.con_titre1_nacre2_code{
+    width: 10%;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0rem;
+    background-color: #00398a;
+    color: white;
+    font-size: 0.7rem;
+}
+.con_titre1_nacre_Intitules{
+    width: 40%;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0rem;
+    margin-top:1rem ;
+    background-color: #0f62d6e0;
+    color: white;
+    font-size: 0.7rem;
+}
+.text_intitule{
+    margin-left:0.5rem;
+}
+.con_titre1_nacre2_Intitules{
+    width: 40%;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0rem;
+    background-color: #0f62d6e0;
+    color: white;
+    font-size: 0.7rem;
+ 
+}
+
+.con_titre1_nacre2{
+    width: 20%;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0rem;
+    background-color: #0f62d6e0;
+    color: white;
+    font-size: 0.5rem;
+    height: 3rem;
+}
+
+.con_titre1_nacre{
+    width: 20%;
+    border: solid 2.5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0rem;
+    margin-top:1rem ;
+    background-color: #0f62d6e0;
+    color: white;
+    font-size: 0.7rem;
+    height: 3rem;
+}
+
+/*/ partie nacre bar/*/
+
+.titre_img_nacre{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    display: none;
+    
+}
+.titre_nacre{
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0f63d6;
+    font-family: 'Open Sans', sans-serif;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+.deco_bar_nacre{
+  height: 8vh;
+  margin-left: 5vw;
+}
+
+}

@@ -1,0 +1,220 @@
+.container_premier{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: auto;
+    min-height: 100vh;
+}
+
+.container_nav_fond{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.fond_site_petit,
+.fond_site_grand{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.container_nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+.menu_logo8_petit_ecran{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+.container_grand_ecran{
+    display: flex;
+}
+
+/*/
+.link_no_decoration{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    margin-right: 4vw;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+ }
+ 
+ /*/
+ .link_no_decoration{
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+     font-size: 1.4rem; 
+     line-height: 32px;  text-align: center;
+     position: relative;
+     text-decoration: none;
+}
+
+.link_no_decoration::before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    transform-origin: 100% 0 ;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out; 
+    background-color: white;
+    height: 1px;
+    bottom: 0;
+}
+
+.link_no_decoration:hover::before{
+    transform: scaleX(1);
+    transform-origin: 0 0 ;
+}
+
+
+ .btn_icon_connection{
+    margin-right: 2.5vw;
+ 
+    display: flex;
+
+}
+.btn_connection{
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa-sign-out-alt{
+    font-size: 1.5rem;
+    margin-left: 0.8rem;
+    color: white;
+    -webkit-transition:   -webkit-transform 1s;
+}
+.fa-sign-out-alt:hover{
+    -webkit-transform: rotate(180deg) translateZ(0);
+ }
+
+.container_menu_nav_grand_ecran{
+    margin-right: 5vw;
+    display: flex;
+
+}
+
+.container_menu_nav_grand_petite{
+    display: none;
+}
+.link_accueil{
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.nom_accueil{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.menu_petit_ecran{
+    display: none;
+}
+.logo_petit_ecran{
+    height: 2rem;
+    width:  2rem;
+    margin-left: 0.5rem;
+    -webkit-transition:   -webkit-transform 2s;
+}
+.logo_petit_ecran:hover{
+    -webkit-transform: rotate(90deg) translateZ(0);
+}
+
+@media screen and (max-width : 750px){
+    .fond_site_petit,
+    .fond_site_grand{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+    .container_nav{
+        background-color: rgb(255, 195, 0);
+        display: flex;
+        justify-content:space-between;
+        padding: 2rem;
+    }  
+    
+    .menu_logo8_petit_ecran{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;     
+    }
+    .menu_petit_ecran{
+        display: flex;
+    }
+    .link_accueil{
+        text-transform: uppercase;
+
+    }
+    .nom_accueil{
+           display: none;
+    }
+    .logo_petit_ecran{
+        height: 2.5rem;
+        width:  2.5rem;
+        margin-left: 0.5rem;
+        display: none;
+    }
+    .container_menu_nav_grand_ecran{
+        display: none;
+    }
+
+    .container_menu_nav_grand_petite{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+        width: 100%;
+   
+    
+        }
+
+    .link_no_decoration_2{
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: white;
+        margin-right: 0vw;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+   
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.212);
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+     }
+     .link_no_decoration_2:hover{
+         background-color: rgb(245, 195, 33);
+     }
+     .btn_connection{
+        margin-right: 0.5rem;
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .fa-sign-out-alt{
+        font-size: 0.9rem;
+        margin-left: 0rem;
+        color: white;
+        -webkit-transition:   -webkit-transform 1s;
+    }
+}

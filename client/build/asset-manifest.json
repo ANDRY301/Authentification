@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.913d9a98.chunk.css",
+    "main.js": "/static/js/main.f847e1d8.chunk.js",
+    "main.js.map": "/static/js/main.f847e1d8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5db8448.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5db8448.js.map",
+    "static/js/2.ec60ac0c.chunk.js": "/static/js/2.ec60ac0c.chunk.js",
+    "static/js/2.ec60ac0c.chunk.js.map": "/static/js/2.ec60ac0c.chunk.js.map",
+    "static/js/3.a6ccab2a.chunk.js": "/static/js/3.a6ccab2a.chunk.js",
+    "static/js/3.a6ccab2a.chunk.js.map": "/static/js/3.a6ccab2a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.913d9a98.chunk.css.map": "/static/css/main.913d9a98.chunk.css.map",
+    "static/js/2.ec60ac0c.chunk.js.LICENSE.txt": "/static/js/2.ec60ac0c.chunk.js.LICENSE.txt",
+    "static/media/accueil.css": "/static/media/box_procedure.3d0e8945.png",
+    "static/media/nav_fond3.a5d7e823.png": "/static/media/nav_fond3.a5d7e823.png",
+    "static/media/soratra2.c72d42fa.png": "/static/media/soratra2.c72d42fa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5db8448.js",
+    "static/js/2.ec60ac0c.chunk.js",
+    "static/css/main.913d9a98.chunk.css",
+    "static/js/main.f847e1d8.chunk.js"
+  ]
+}
